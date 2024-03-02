@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(50, 40, 40);
+}
+
+h2 {
+    color: rgb(50, 40, 40);
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+b {
+    color: blueviolet;
+}
+
+a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(50, 40, 40);
+}
+
+span {
+    font-size: xx-large;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(135, 205, 205);
+}
+
+.HeaderLinks {
+    margin: 0 10px;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderLinks:hover {
+    background-color: rgb(108, 233, 233);
+    border-radius: 10px;
+    color: white;
+    height: 25px;
+    width: 80px;
+    text-align: center;
+}
+
+/* write after */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(126, 174, 174);
+}
+
+/* Home section */
+#home {
+    background-color: rgb(60, 182, 182);
+    height: 112vh;
+}
+
+.home {
+    font-size: x-large;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.heading {
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    height: 90%;
+    width: 90%;
+
+}
+
+/* About Section */
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 174, 174);
+}
+
+.About h1 {
+    margin-bottom: 4%;
+    margin-right: 70%;
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe img {
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(35, 1, 1, 0.7);
+    /* adjust image */
+}
+
+/* Skills Section */
+#Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 144, 144);
+}
+
+.Skills {
+    display: flex;
+}
+
+#SkillsHeading {
+    margin-bottom: 4%;
+}
+
+.skill {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(151, 125, 151);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Projects Section */
+#Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 176, 176);
+}
+
+.Projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(57, 176, 176);
+}
+
+.project {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(151, 125, 151);
+    border-radius: 10px;
+    margin-right: 3%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.project:hover {
+    background-color: rgb(108, 233, 233);
+    border-radius: 10px;
+    color: white;
+    height: 52%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.project h2,
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#ProjectsHeading {
+    margin-top: 6%;
+    font-size: xxx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Contact Section */
+#Contact {
+    background-color: rgb(21, 122, 122);
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgcontact {
+    margin-left: 10%;
+}
+
+.imgcontact img {
+    height: 10%;
+    width: 80%;
+}
+
+.Contact {
+    margin-right: 20%;
+}
+
+#Contact h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Contact input,
+#Contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(203, 227, 227);
+}
+
+#Contact textarea::placeholder {
+    color: rgb(40, 32, 32);
+}
+
+#Contact input::placeholder {
+    color: rgb(40, 32, 32);
+}
+
+#Contact button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(60, 182, 182);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#submit:hover {
+    background-color: rgb(241, 209, 166);
+    color: rgb(34, 21, 21);
+}
+
+/* footer */
+footer {
+    height: 10vh;
+    color: azure;
+    background-color: rgb(66, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
